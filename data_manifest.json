@@ -1,0 +1,31 @@
+{
+  "source_archive": "Start_up_codes_LetterRecognition_with_validation_set_v5.zip",
+  "protocol": "Assignment PDF split: 16,000 training rows and 4,000 test rows. training_set.csv concatenates the v5 starter's 12,800 training rows followed by its 3,200 validation rows (original order), so the first 12,800 rows are byte-identical to the starter's training file. validation_set.csv is retained unchanged for the stage-1 configuration-selection experiments, where the first 12,800 rows of training_set.csv are used for gradient updates and the validation file selects checkpoints. The final submitted network trains on all 16,000 rows.",
+  "files": [
+    {
+      "file": "training_set.csv",
+      "rows": 16000,
+      "sha256": "93be81a2e0c7d34f2895cec52284096043d5cfe71bd287e964807eeecb7eac17",
+      "derived_from": [
+        "Start_up_codes_LetterRecognition_with_validation_set_v5/training_set.csv (12,800 rows, unchanged order)",
+        "Start_up_codes_LetterRecognition_with_validation_set_v5/validation_set.csv (3,200 rows appended)"
+      ],
+      "first_12800_rows_identical_to_starter_training": true,
+      "last_3200_rows_identical_to_starter_validation": true
+    },
+    {
+      "file": "validation_set.csv",
+      "rows": 3200,
+      "sha256": "f014873195a2ece87184342af8b9da96227d8671f7c7854cdac43923c4aef387",
+      "archive_entry": "Start_up_codes_LetterRecognition_with_validation_set_v5/validation_set.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "test_set.csv",
+      "rows": 4000,
+      "sha256": "fb8b6d7dba08781f11372bae1925724a31cdcd42c8497d0def3ddc7927e6782d",
+      "archive_entry": "Start_up_codes_LetterRecognition_with_validation_set_v5/test_set.csv",
+      "byte_identical": true
+    }
+  ]
+}

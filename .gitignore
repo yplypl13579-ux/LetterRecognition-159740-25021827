@@ -1,0 +1,10 @@
+build/
+gui_runs/
+scratch_run/
+scratch_selftest/
+reproduced_results/
+*.exe
+*.o
+*.obj
+*.user
+.qmake.stash
